@@ -1,6 +1,6 @@
 (defproject forty-one-socks "0.1.0-SNAPSHOT"
-  :description "FIXME: write this!"
-  :url "http://example.com/FIXME"
+  :description "Simple match game in cljs+om+react"
+  :url "http://tonsky.github.io/41-socks/"
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/clojurescript "0.0-2156"]
                  [org.clojure/core.async "0.1.278.0-76b25b-alpha"]
