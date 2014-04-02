@@ -32,7 +32,7 @@ button:hover { background: white; }
 .timer > .msec { font-size: 20px; padding-right: 1px; }
 
 .row { background-image: url(socks@2x.png); background-size: 100% 500px; background-position-y: -400px; background-repeat: no-repeat; width: 510px; margin: 0 auto; }
-.col { width: 90px; height: 120px; margin: 2px -5px -15px; display: inline-block; cursor: pointer;  position: relative; padding: 10px; border-radius: 10px; }
+.col { width: 90px; height: 115px; margin: 2px -5px -15px; display: inline-block; cursor: pointer;  position: relative; padding: 7px 10px 13px; border-radius: 10px; }
 
 .flipped { -webkit-transform: scale(-1, 1); }
 
