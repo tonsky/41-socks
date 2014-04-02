@@ -1,0 +1,52 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126 */
+html, body, div, span, applet, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+/*ol, ul { list-style: none; }*/
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none;}
+table { border-collapse: collapse; border-spacing: 0; }
+
+* { box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box; }
+button { border:none; outline: none; }
+button:active { position: relative; top: 1px; }
+
+html, button { font-family: 'PT Serif', serif; }
+html { width: 640px; }
+body { width: 100%; padding-top: 10px; margin: 0; -webkit-user-select: none; }
+
+.screen { width: 640px; }
+.window { background: #eee; width: 500px; margin: 50px auto; padding: 50px; text-align: center; border-radius: 10px; }
+h1 { font-size: 50px; }
+h2 { font-size: 25px; margin: 20px 0; padding: 20px 0; border-top: 1px solid #ccc; }
+button { border: 2px solid black; background: transparent; padding: 10px 20px; font-size: 25px; border-radius: 10px; cursor: pointer; box-shadow: 0 2px 0 #000; }
+button:hover { background: white; }
+
+.game { position: relative; }
+.timer { font-size: 40px; font-style: italic; position: absolute; right: 70px; bottom: 16px; border: 2px solid black; padding: 0 15px; border-radius: 8px; }
+.timer > .msec { font-size: 20px; padding-right: 1px; }
+
+.row { background-image: url(socks@2x.png); background-size: 100% 500px; background-position-y: -400px; background-repeat: no-repeat; width: 510px; margin: 0 auto; }
+.col { width: 90px; height: 120px; margin: 2px -5px -15px; display: inline-block; cursor: pointer;  position: relative; padding: 10px; border-radius: 10px; }
+
+.flipped { -webkit-transform: scale(-1, 1); }
+
+.col0, .col5 { top: -5px; }
+.col1, .col4 { top: 0px; }
+.col2, .col3 { top: 2px; }
+
+.sock, .sock > div { width: 70px; height: 100px;  }
+.sock { position: relative; background-position-x: -420px; }
+.sock > div { position: absolute; background-image: url(socks@2x.png); background-size: 490px 500px; }
+.sock__bg   {  }
+.sock__band { background-position-y: -100px;  }
+.sock__heel { background-position-y: -200px; }
+.sock__toe  { background-position-y: -300px; }
+.sock__stroke { background-position-x: -420px; }
+
+.selected { background: rgba(0,0,0,0.1);  }
